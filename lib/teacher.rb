@@ -6,6 +6,4 @@ class Teacher < User
     array.sample
   end
   
-
-
 end

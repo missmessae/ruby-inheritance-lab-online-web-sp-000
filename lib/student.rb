@@ -6,6 +6,11 @@ class Student < User
 
   def learn(fact)
     @knowledge << fact
+  end
+
+  def knowledge
+    @knowledge
+  end
 
 
   Define a method, #learn, that takes in a string and adds
